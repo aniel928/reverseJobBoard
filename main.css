@@ -1,0 +1,373 @@
+		body {
+			background-color:#F0F0F0;
+			padding: 50px;
+			}
+		h1 {
+			text-align: left;
+			color: navy;
+			font-family: helvetica;
+			font-size: 30px;
+		}
+		
+		h2 {
+			text-align: left;
+			color: #C35817; 
+			font-family: "Helvetica";
+			text-decoration: none;
+			font-size: 22px;
+			}
+			
+		h3{
+			font-size: 1.2em;
+			text-decoration: underline;
+			}
+		p {
+			font-family: "Helvetica";
+			}
+		.home-page-boxes {
+			text-align: left;
+			float: left;
+			color: navy; 
+			background: linear-gradient(#CCE5FF,#DDD); 
+			border-width:3px;
+			border-style: solid;
+			width:40%; 
+			margin: 2.5%;
+			min-width: 400px;
+			padding:10px 30px 10px 30px; 
+			}
+		
+		input[type=text], input[type=password], input[type=tel], .dropdown{
+			padding: 2px;
+			margin: 2px;
+			width: 300px;
+		    height: 30px;
+		    position: relative;
+		    left: 0;
+		    outline: solid;
+		    border: 1px solid #cdcdcd;
+		    border-color: rgba(0,0,0,.15);
+		    background-color: white;
+		    font-size: 16px;
+		    color: navy;
+		} 
+		
+		label {
+			font-size: 20px;
+			padding: 0px 10px 0px 0px;
+			font-family: Helvetica;
+		}
+		
+		input[type=submit]{
+			margin: 15px;
+			width: 150px; 
+			padding: 5px;
+			border-radius: 0%;
+			font-size: 16px;
+			background: linear-gradient(#EEE,#FFF);
+		}
+		
+		button{
+			margin: 15px;
+			width: 150px; 
+			padding: 5px;
+			border-radius: 0%;
+			font-size: 16px;
+			background: linear-gradient(#EEE,#FFF);
+		}
+		
+		select{
+			padding: 2px;
+			margin: 2px;
+			width: 390px;
+		    height: 150px;
+		    position: relative;
+		    left: 0;
+		    outline: solid;
+		    border: 1px solid #cdcdcd;
+		    border-color: rgba(0,0,0,.15);
+		    background-color: white;
+		    font-size: 16px;
+		
+		}
+		
+		.container{
+			min-width: 500px;
+			text-align: center;
+		 	}
+
+		#header{
+			width:100%;
+			text-align:center;
+	
+		
+		}
+		#header div{
+			width: 33%
+			float: left;
+		}
+		
+		footer {
+			float:none;
+			display: flex;
+			margin: 5px 5px -5px -8px;
+			padding: 15px;
+			text-align:center;
+			background: Navy;
+			position: fixed;
+			Width: 100%;
+			bottom: 0;
+		}
+		
+		footer a {
+			padding:0 10px;
+			margin: auto;
+			color: white;
+			font-size: 20px;
+			font-family: helvetica;
+			text-decoration: none;
+		}
+		
+		footer a:hover {
+			text-decoration: underline;
+		}
+		
+		.contact-info{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			font-size: 18px;
+		}
+		.contact-info a {
+			display: block;
+			min-height: 20px;
+			background-repeat: no-repeat;
+			background-size: 20px 20px;
+			padding: 0 0 0 30px;
+			margin: 0 0 10px;
+			text-decoration: none;
+			font-size: 18px;
+			color: blue;
+		}
+		
+		.contact-info a:hover{
+			text-decoration: underline;
+			}
+		.contact-info li.phone a{
+		  background-image: url('img/phone.png');
+		}
+		.contact-info li.mail a{
+		  background-image: url('img/mail.png');
+		}
+		.contact-info li.twitter a{
+		  background-image: url('img/twitter.png');
+		}
+		#primary {
+   			width: 50%;
+    		float: left;
+  		}
+  
+  		#secondary {
+    		width: 40%;
+    		float:right;
+  		}
+		
+		#dash {
+			margin: 0 auto;
+			border-style: solid;
+			border-width: 2px;
+			max-width: 450px;
+			min-width: 500px;
+		}
+		
+		#dash td, #dash th {
+			padding: 10px;
+			border-style: solid;
+			border-width 2px;
+			margin: auto;
+			/*min-width: 221px;*/
+			width: 442px;
+			background-color: #E1E1E1;
+			text-align: center;		
+			font-size: 20px;
+			font-family: helvetica;
+		}
+		
+		#dash td a, #dash th a{
+			color: #339;
+			text-decoration: none;
+			
+		}
+		
+		#dash td a:hover, #dash th a:hover{
+			text-decoration: underline;
+			
+		}
+		
+		#dash table{
+			min-width: 499px;
+			max-width: 999px;
+		}
+		
+		#dash tr{
+			mid-width: 498px;
+			max-width: 998px;
+		}
+		
+/* 
+		#about{
+			background-color: #EEEEFF;
+			border-width: 3px;
+			border-radius: 20px;
+			padding:20px 20px 40px 20px; 
+			margin:10px 20px;	
+		}
+ */
+		
+		#about h3{
+			text-decoration: underline;
+		}
+		
+		#about p, #contact p {
+			font-size: .9em;
+			margin: -10px 0 0 0;
+		}	
+		#contact, #about{
+			background-color: #d1d1d1;
+			border-width: 1px;
+			border-style: solid;
+			border-radius: 0px;
+			padding:10px 20px 40px 20px; 
+			margin:10px auto;
+			font-size: 18px;
+			max-width: 70%;
+			text-align: left;
+		}
+		
+		#about p a {
+			color: blue;
+			text-decoration: none;
+		}
+		
+		#about p a:hover{
+			text-decoration: underline;
+		}
+		#results {
+			background-color: navy;
+			margin: 40px auto;
+		}
+		
+		#results tr {
+			background-color: #fcfcfc;
+			margin: 20px;
+		}
+		
+		#results th {
+			background-color: navy;
+			color: #fcfcfc;
+			margin: 20px;
+		}
+		
+		#results td {
+			padding: 20px;
+			border-width: 0px;
+		}
+		
+		#profileSection a{
+			font-family: "Helvetica", sans-serif;
+			color: blue;
+			text-decoration: underline;
+			font-size: 12px;
+			
+		}
+		
+		#profileSection {
+			margin: auto;
+		}
+		
+		#profileSection table{
+			background: linear-gradient(#D9D9D9,#EBEBEB); 
+			border-width: 1px;
+			border-style: solid;
+			border-color: navy;
+			color: navy;
+			padding:10px 40px 10px 60px;
+			margin: 5px 30% 5px;
+			text-align: left;
+			width: 40%;
+			min-width: 400px;
+			font-size: 18px;
+		}
+		
+		
+		#profileSection h2{
+			margin: 20px 30% 5px;
+		}
+		
+		#resume {
+			text-align: left;
+			border-style: solid;
+			border-width: 1px;
+			background-color: #FFFEFE;
+			padding: 25px 50px;
+			margin: auto;
+			width: 1000px;
+				
+		}
+		
+		#registration table{
+			margin: 30px auto;
+			text-align: left;			
+			
+		}
+		
+		#registration tr{
+			color: navy
+		}
+		
+		#info {
+			margin: 70px;
+			text-align: center;
+		}		
+		
+		#info label {
+			color: navy;
+		}
+		
+		#chooseCriteria{
+			color: navy;
+			text-decoration: none;
+		}		
+		
+		#chooseCriteria select{
+			color: navy;
+			background-color: #FFFEFE;
+		}		
+		
+
+		#profileResume{
+			margin: auto;	
+		}		
+ 
+		
+		.profileEdit table{
+			margin: 0px 10px 0px 150px;
+			font-size: 18px;
+		}
+		
+		.profileEdit {
+			float: left;
+			margin: 0px 10px;
+		}
+		
+		.form {
+			float:right;
+			margin: 5%;
+			width: 55%;
+			
+		}
+
+		.profileEdit th {
+			font-size: 24px;
+			
+		}
